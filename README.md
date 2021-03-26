@@ -8,7 +8,7 @@ A rede social que lhe permite fazer tudo que você realmente gostaria de fazer n
 
 IMPORTANTE: A rede social **Instragado** é somente um **projeto de aprendizado** criativo. Não tenho nada contra a rede social Instagram, e esse site foi criado no intuito de testar minhas poucas habilidades em HTML/CSS. Guarde seus *trash comments* para quando a rede estiver online! :ok_hand: (Nunca, no caso)
 
-Espero que tenha gostado :D
+Espero que tenha gostado! :D
 
 ----------------------
 
