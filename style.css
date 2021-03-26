@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
+    font-size: 14px;
 }
 
 body {
@@ -23,8 +23,16 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-    width: 100vh;
 }
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    width: auto\9;
+  }
 
 .mobile-text {
     display: none;
@@ -33,13 +41,14 @@ body {
 .news {
     position: relative;
     align-self: center;
+    width: 350px;
 }
 
 .insta-phone {
     align-items: left;
     justify-content: right;
     height: 60rem;
-
+    width: 450px;
 }
 
 .insta-continue {
@@ -61,6 +70,7 @@ body {
     border: 1px solid lightgray;
     flex-flow: column;
     align-self: center;
+    width: 350px;
 }
 
 .group:nth-child(1) {
