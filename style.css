@@ -1,193 +1,205 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 body {
-    background-color: rgb(243, 243, 243);
-    width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+  background-color: rgb(243, 243, 243);
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .insta-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
 }
 
 img {
-    border: 0;
-    -ms-interpolation-mode: bicubic;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    width: auto\9;
-  }
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  width: auto\9;
+}
 
 .mobile-text {
-    display: none;
+  display: none;
 }
 
 .news {
-    position: relative;
-    align-self: center;
-    width: 350px;
+  position: relative;
+  align-self: center;
+  width: 350px;
 }
 
 .insta-phone {
-    align-items: left;
-    justify-content: right;
-    height: 60rem;
-    width: 450px;
+  align-items: left;
+  justify-content: right;
+  height: 60rem;
+  width: 450px;
 }
 
 .insta-continue {
-    position: relative;
-    align-items: center; /*horizontal*/
-    justify-content: bottom; /*vertical*/
-    min-height: 34rem;
+  position: relative;
+  align-items: center; /*horizontal*/
+  justify-content: bottom; /*vertical*/
+  min-height: 34rem;
 }
 
 .group {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #fafafa;
-    margin-bottom: 5px;
-    padding: 1.3rem;
-    border: 1px solid lightgray;
-    flex-flow: column;
-    align-self: center;
-    width: 350px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fafafa;
+  margin-bottom: 5px;
+  padding: 1.3rem;
+  border: 1px solid lightgray;
+  flex-flow: column;
+  align-self: center;
+  width: 350px;
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+  min-height: 19rem;
 }
 
 .insta-logo {
-    height: 3rem;
-    max-width: 200px;
+  height: 3rem;
+  max-width: 200px;
 }
 
 .profile-pic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .profile-pic img {
-    height: 6rem;
+  height: 6rem;
 }
 
 .insta-login {
-    background-color: #0095f6;
-    color: #fafafa;
-    padding: 8px;
-    border-radius: 4px;
-    text-align: center;
+  background-color: #0095f6;
+  color: #fafafa;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
 }
 
 .insta-logout {
-    color: #0895f6;
-    margin: 1rem;
+  color: #0895f6;
+  margin: 1rem;
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+  color: rgb(160, 160, 160);
 }
 
 .link-blue {
-    color: #0895f6;
-    max-width: 400px;
+  color: #0895f6;
+  max-width: 400px;
 }
 
 #inscrever {
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
 .get-the-app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 1.3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
 }
 
 .download {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
 }
 
 .app-download {
-    height: 4rem;
-    width: 10rem;
-    background-size: cover;
+  height: 4rem;
+  width: 10rem;
+  background-size: cover;
 }
 
 .app-download:nth-child(1) {
-    background-image: url('img/google.png');
+  background-image: url('img/google.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('img/apple.png');
+  background-image: url('img/apple.png');
 }
 
 /* media queries*/
 
 @media (max-width: 1024px) {
-    .insta-wrapper {
-        width: 90%;
-    }
+  .insta-wrapper {
+    width: 90%;
+  }
 }
 
 @media (max-width: 650px) {
-    body {
-        background-color: #fafafa;
-    }
+  body {
+    background-color: #fafafa;
+  }
 
-    .group {
-        border: 1px solid transparent;
-    }
+  .group {
+    border: 1px solid rgb(235, 235, 235);
+    margin-right: -10px;
+  }
 
-    .insta-wrapper {
-        width: 90%;
-    }
+  .insta-wrapper {
+    width: 90%;
+  }
 
-    .mobile-text {
-        display: block;
-        text-align: center;
-        color: #202020;
-        margin-top: 14px;
-    }
+  .mobile-text {
+    display: flex;
+    color: #202020;
+    margin-top: 14px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .insta-phone {
-        display: none;
-    }
+  .mobile-text img {
+    width: 200px;
+    margin-top: 8px;
+  }
 
-    .news {
-        display: none;
-    }
-    
-    .insta-continue {
-        width: 100%;
-    }
+  .mobile-text p {
+    font-size: 15px;
+  }
+
+  .insta-phone {
+    display: none;
+  }
+
+  .news {
+    display: none;
+  }
+
+  .insta-continue {
+    position: center;
+  }
 }
